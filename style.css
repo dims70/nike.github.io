@@ -130,10 +130,6 @@ body{
     bottom: 0;
     margin-left:110px;
 }
-.follow{
-    margin-left:65px;
-
-}
 .follow img{
     height: 17px!important;
     width: 17px;
@@ -167,12 +163,12 @@ ul{
     margin-left:auto
 }
 section:nth-child(3){
-    padding-bottom: 130px;
-    padding-top: 110px;
+    margin-bottom: 130px;
+    margin-top: 110px;
+    background-color: rgb(245, 245, 245);
 }
 .section2-content{
     height: 600px;
-    background-color: rgb(245, 245, 245);
 }
 .sec2-item-left{
     width: 50%;
@@ -215,13 +211,11 @@ section:nth-child(3){
     left: 82.5%;
 }
 
-.footer{
+footer{
     background-color: rgb(245, 245, 245);
 }
 section:nth-child(5){
     height: 600px;
-}
-.section4-content{
     background-color: rgb(245, 245, 245);
 }
 .ptext{
@@ -257,13 +251,71 @@ section:nth-child(6){
     padding-right: 60px;
 }
 .sec4-item-left{
-    margin-left:140px
+    margin-left:140px;
+    position: relative;
 }
 .sec4-item-content>h2>span{
     font-size: 50pt;
     font-family: 'FuturaBold';
+    z-index: 3;
+    position: relative;
 }
 .sec4-item-content>p{
     text-transform: uppercase;
     font-weight: bold;
+}
+.redqd4{
+    position: absolute;
+    width: 72px;
+    height: 90px;
+    background-color: #e64344;
+    top: 21%;
+}
+.sec3-left{
+    position: relative;
+    width: 50%;
+}
+.sec3-left>span{
+    transform: rotate(270deg);
+    height: fit-content;
+    font-family: 'FuturaBold';
+    font-size: 90pt;
+    color:#f6f5f3;
+    position: absolute;
+    top: 0;
+    top: 16%;
+    left: -12%;
+}
+.section3-content{
+    padding-bottom: 90px;
+    padding-left: 65px;
+    position: relative;
+}
+.atcsec3{
+    position: absolute;
+    top: 72%;
+    left: 3%;
+}
+.sec3-right>h2 span{
+    font-size: 75pt;
+    font-family: 'FuturaBold','sans-serif';
+}
+.sec3-right{
+    position: relative;
+}
+.sec3-left>img{
+    right: -100px;
+    position: relative;
+}
+.sec3-pagin{
+    margin: 0 65px;
+}
+.sec3-redqd{
+    position: absolute;
+    width: 250px;
+    height: 72px;
+    background-color: #e64344;
+    top: 14%;
+    left: 15%;
+    z-index: -1;
 }
