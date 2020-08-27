@@ -663,3 +663,6 @@ font-size: 1.2rem!important;
     margin-left:10px;
     transition: 1s;
 }
+.bold{
+    font-weight: bold;
+}
