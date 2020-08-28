@@ -19,12 +19,28 @@ body{
     width: 47px;
     height: 18px;
 }
-.header-logo,.header-search{
+.header-logo{
     width: 140px;
 }
+
+.header-search{
+     width: 120px;  /*220 если с полем ввода*/
+    /* margin-right: 65px; */
+}
+
 .header-search img{
     width: 19px;
     height: 19px;
+    cursor: pointer;
+}
+.header-search input{
+    height: 30px;
+    margin: auto 0;
+    margin-right: 30px;
+    border: 0px;
+    background: lightgrey;
+    padding-left:10px;
+    border-radius: 20px;
 }
 .headermenu-content{
     justify-content: space-between;
@@ -352,12 +368,12 @@ section:nth-child(6){
     color:#d3cfc4;
     padding-left:30px
 }
-li.active{
+li.activep{
     display: inline-flex;
     transition: 0.5s;
     color:black
 }
-li.active::after{
+li.activep::after{
     content: '';
     width: 50px;
     height: 1px;
@@ -368,14 +384,28 @@ li.active::after{
     background-color: #e64344;
     transition: 0.5s;
 }
-.item-subtitle.active{
+.item-subtitle.activep{
     padding-top:110px
 }
-.item-subtitle.active>span{
+.item-subtitle.activep>span{
     color:white;
     font-size: 16pt;
 }
-.item-subtitle.active>p{
+.item-subtitle.activep>p{
     color:white;
     padding-left:30px
+}
+.item-subtitle.activep>button{
+    margin-left:30px;
+    margin-top:80px;
+    padding: 10px 45px;
+    border: 1px solid white;
+    color:white;
+    background: none;
+}
+.item-subtitle.activep>button:hover{
+    background: white;
+    color:#e64344;
+    cursor: pointer;
+    transition: 0.5s;
 }
